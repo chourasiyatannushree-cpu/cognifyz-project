@@ -1,0 +1,26 @@
+body{
+   font-family: Arial;
+   text-align:center;
+   transition: 0.5s ease;
+}
+.card{
+    border-radius: 15px;
+}
+h1{
+    color:purple;
+}
+input{
+    padding:10px;
+    width:200px;
+}
+button{
+    padding:10px 20px;
+    background-color:blue;
+    color:white;
+    border:none;
+}
+@media(max-width:600px){
+    body{
+        background-color: lightblue;
+    }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-dark text-white">
+    <class="container mt-5">
+        <!-- Header -->
+     <div class="mb-4">
+    <h1 class="fw-bold text-info">🚀Welcome to My Website</h1>
+    <p class="text-light">
+        This is my first project in Cognifyz Internship.</p></div>
+        <!-- button -->
+     <div>
+    <button onclick="changeolor()" class=""btn btn-primary mb-3>Click Me</button>
+     </div>
+     <!-- API Section  -->
+     <div class="card p-3 mb-4 shadow"><h3 class="text-dark">Users Data(API)</h3>
+    <ul id="userList" class="list-group"></ul>
+     </div> 
+     <!-- form -->
+        <div class="card p-4 shadow">
+    <h3 class="text-dark mb-3">Contact Form</h3>
+    <form onsubmit="return validateForm()" class="w-50 mx-auto">
+        <input type="text" id="name" placeholder="Enter your name" class="form-control mb-2">
+        <input type="email" id="email" id="email" placeholder="Enter your email" class="form-control mb-2">
+        <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+    <p id="error" class="text-danger mt-2";></p>
+    <p id="success" class="text-success"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</bodyclass>        
+</html>
